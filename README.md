@@ -1,6 +1,6 @@
 # Loan Amortization Planer
 
-[![Build Status]([https://travis-ci.org/joemccann/dillinger.svg?branch=master](https://github.com/jabadurai/loanease/actions/workflows/pages/pages-build-deployment/badge.svg))](https://jabadurai.github.io/loanease/)
+[![Build Status](https://github.com/jabadurai/loanease/actions/workflows/pages/pages-build-deployment/badge.svg)](https://jabadurai.github.io/loanease/)
 
 Our Loan Repayment Planner app is a powerful tool designed to help you effectively manage your loan repayment process. Whether you have a personal loan, a mortgage, or any other type of loan, our app provides you with the necessary features to plan and track your loan repayment journey.
 
