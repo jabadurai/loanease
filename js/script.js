@@ -234,7 +234,7 @@ function populateAmortTable(amortSchedule, partPaymentFrequency, amortTable, amo
     var tableBody = "";
     amortSchedule.forEach((installment, index) => {
       tableBody += `
-          <tr class='text-center ${installment.partPaymentMade != "0" && partPaymentFrequency !== "off" ? "table-success" : ""}'>
+          <tr class='text-center ${installment.partPaymentMade !== "0" && partPaymentFrequency !== "off" ? "table-success" : ""}'>
             <td class='text-center'>${installment.installmentNumber}</td>
             <td class='text-center'>${installment.installmentDate}</td>
             <td class='text-center detailed-info'> $ ${installment.openingBalance}</td>
@@ -243,7 +243,7 @@ function populateAmortTable(amortSchedule, partPaymentFrequency, amortTable, amo
             <td class='text-center'> $ ${installment.monthlyInterest}</td>
             <td class='extra_payment_col ${partPaymentFrequency !== "off" ? "" : "hide"}'>
               <span class=' ${partPaymentFrequency !== "custom" ? "" : "hide"}'>$ ${installment.partPaymentMade} </span>
-              <input value='${installment.partPaymentMade != "0" ? installment.partPaymentMade : ""}' type='text' data-index='${installment.installmentNumber}' class='form-control form-control-sm extra_payments numeric ${partPaymentFrequency === "custom" ? "" : "hide"}' /></td>
+              <input value='${installment.partPaymentMade !== "0" ? installment.partPaymentMade : ""}' type='text' data-index='${installment.installmentNumber}' class='form-control form-control-sm extra_payments numeric ${partPaymentFrequency === "custom" ? "" : "hide"}' /></td>
             <td class='text-center'> $ ${installment.monthlyPaymentWithPartPayment}</td>
             <td class='text-center'> $ ${installment.remainingLoanAmount}</td>
             <td class='text-center detailed-info'> ${installment.loanPaid} %</td>

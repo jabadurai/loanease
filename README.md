@@ -1,6 +1,6 @@
 # Loan Amortization Planer
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://javadurai.github.io/loan-amotization-calculator/)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://jabadurai.github.io/loanease/)
 
 Our Loan Repayment Planner app is a powerful tool designed to help you effectively manage your loan repayment process. Whether you have a personal loan, a mortgage, or any other type of loan, our app provides you with the necessary features to plan and track your loan repayment journey.
 
@@ -19,7 +19,7 @@ Take charge of your loan repayment today with our user-friendly and feature-rich
 - Planning ad-hoc part payments
 - Helps calculating the impact after part-payments
 
-Live Site: https://javadurai.github.io/loanease/
+Live Site: https://jabadurai.github.io/loanease/
 
 ### User Guide
 
